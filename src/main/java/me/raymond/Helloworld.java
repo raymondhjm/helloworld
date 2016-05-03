@@ -14,4 +14,8 @@ public class Helloworld {
         System.out.println("Hello world10!");
         System.out.println("Hello world11!");
     }
+
+    public String call(String name) {
+        return "Hello: " + name;
+    }
 }
