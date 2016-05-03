@@ -16,10 +16,9 @@ public class Helloworld {
     }
 
     public String call(String name) {
-        if (name != null) {
-            return "Hello: " + name;
-        } else {
-            return "Hello world";
+        if (name == null) {
+            name = "world";
         }
+        return "Hello, " + name;
     }
 }
