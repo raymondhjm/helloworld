@@ -1,3 +1,4 @@
+import me.raymond.Helloworld;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -6,9 +7,11 @@ import org.junit.Test;
  */
 public class HelloworldTest {
 
+    private Helloworld helloworld;
+
     @Before
     public void setup() {
-
+        helloworld = new Helloworld();
     }
 
     @Test
