@@ -17,5 +17,6 @@ public class HelloworldTest {
     @Test
     public void first_unit_test() {
         helloworld.call("a");
+        helloworld.call("b");
     }
 }
